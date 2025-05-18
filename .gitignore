@@ -40,3 +40,8 @@ docker/data/
 ### Sistema ###
 .DS_Store
 Thumbs.db
+
+# Cache do Laravel
+src/bootstrap/cache/*
+src/storage/framework/cache/*
+src/storage/framework/views/*
